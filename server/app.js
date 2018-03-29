@@ -8,7 +8,7 @@ app.use('/api', require('./routes/api.routes.js'));
 app.use('*', require('./routes/html.routes.js'));
 // !!! app.use(require('./api/error.js'));
 app.set('port', (process.env.PORT || 3000));
-app.set('host', (process.env.IP || 'localhost'));
+app.set('host', (process.env.IP || '0.0.0.0'));
 server.listen(app.get('port'), app.get('host'), () => {
   console.log(`Server running on http://${app.get('host')}:${app.get('port')}`);
 });
