@@ -11,7 +11,7 @@
   "scripts": {
     "eslint": "eslint --ext .js .vue .",
     "server": "nodemon",
-    "start": "nodemon"
+    "start": "node server/app.js"
   },
   "keywords": [],
   "author": "Natalia Petkevich",
