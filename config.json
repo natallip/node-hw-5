@@ -1,0 +1,14 @@
+{
+  "mongodb": "mongodb://admin:admin@ds115799.mlab.com:15799/loft-system",
+  "mail": {
+    "subject": "Сообщение с сайта node-test",
+    "smtp": {
+      "service": "Gmail",
+      "secure": true,
+      "auth": {
+        "user": "mySuperTest8@gmail.com",
+        "pass": "s5gg2t5ewa"
+      }
+    }
+  }
+}

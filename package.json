@@ -1,0 +1,47 @@
+{
+  "name": "LoftSystem",
+  "version": "1.0.0",
+  "private": false,
+  "description": "",
+  "engines": {
+    "node": "9.3.0",
+    "npm": "5.6.0"
+  },
+  "main": "server/app.js",
+  "scripts": {
+    "eslint": "eslint --ext .js .vue .",
+    "server": "nodemon",
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "Natalia Petkevich",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "formidable": "^1.1.1",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^5.0.0",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "^2.4.5",
+    "socket.io": "^2.0.4",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "nodemon": "^1.14.11"
+  }
+}
