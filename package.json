@@ -4,7 +4,7 @@
   "private": false,
   "description": "",
   "engines": {
-    "node": "9.3.0",
+    "node": "8.9.4",
     "npm": "5.6.0"
   },
   "main": "server/app.js",
